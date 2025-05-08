@@ -9,7 +9,7 @@ def get_customer_info():
     return [name, address, username, password]
 
 
-'''def create_customer_next_id():
+def create_customer_next_id():
     with open("customers.txt", "r") as customer_file:
         #print(int(customer_file.readlines()[-1].split(",")[0][1:]) +1)
         return f"U{int(customer_file.readlines()[-1].split(",")[0][1:]) +1:03}"
@@ -17,7 +17,7 @@ def get_customer_info():
 
 create_customer_next_id()
 
-'''
+
 
 
 
@@ -46,3 +46,7 @@ if get_input ==1:
 
 elif get_input ==2:
     view_all_customers()
+
+
+
+# testing 001
